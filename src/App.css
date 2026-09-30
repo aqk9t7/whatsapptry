@@ -1,0 +1,25 @@
+@import "tailwindcss";
+/* 
+@theme {
+    --color-brand-50: oklch(0.98 0.20 250);
+    /* h.t */
+/* }  */
+
+.chat-pane {
+    display: none;
+}
+
+#chat-affan:checked ~ .mx-auto .chat-pane-affan,
+#chat-sundar-pichai:checked ~ .mx-auto .chat-pane-sundar-pichai,
+#chat-jeffrey-epstein:checked ~ .mx-auto .chat-pane-jeffrey-epstein {
+    display: flex;
+}
+
+#chat-affan:checked ~ .mx-auto .chat-select-affan,
+#chat-sundar-pichai:checked ~ .mx-auto .chat-select-sundar-pichai,
+#chat-jeffrey-epstein:checked ~ .mx-auto .chat-select-jeffrey-epstein {
+    background-color: #f0f2f5;
+}
+
+
+
